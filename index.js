@@ -42,3 +42,12 @@ function totalRevenue(drivers) {
   }
   return totalRev
 }
+
+function averageRevenue(drivers) {
+  totalRev = 0
+
+  for (const el of drivers) {
+    totalRev += el.revenue
+  }
+  return totalRev
+}
