@@ -15,7 +15,8 @@ function logDriversByHometown(drivers, town) {
 }
 
 function driversByRevenue(drivers){
-  let new_array = drivers
+  let new_array = []
+  new_array[...drivers]
   new_array.sort(function (a, b){
      return a.revenue - b.revenue
   })
