@@ -33,3 +33,7 @@ function driversByName(drivers) {
 
   return new_array
 }
+
+function totalRevenue(drivers) {
+  console.log(drivers)
+}
