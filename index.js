@@ -40,5 +40,5 @@ function totalRevenue(drivers) {
   for (const el in drivers) {
     totalRev += el.revenue
   }
-
+  return totalRev
 }
