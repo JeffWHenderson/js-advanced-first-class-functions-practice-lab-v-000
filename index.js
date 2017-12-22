@@ -8,9 +8,8 @@
 
 function logDriversByHometown(drivers, town) {
   for (const el of drivers) {
-    console.log(el.hometown)
-  //   if(el === town) {
-  //     console.log(el)
-  //   }
+    if(el.hometown === town) {
+      console.log(el)
+    }
   }
 }
