@@ -31,5 +31,5 @@ function driversByName(drivers) {
      return a.name.localeCompare(b.name)
   })
 
-  console.log(new_array)
+  return new_array
 }
