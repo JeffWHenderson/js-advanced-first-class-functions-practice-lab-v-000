@@ -28,7 +28,7 @@ function driversByName(drivers) {
   let new_array = [...drivers]
 
   new_array.sort(function (a, b){
-     return a.name - b.name
+     return a.localeCompare(b)
   })
 
   console.log(new_array)
