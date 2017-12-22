@@ -21,4 +21,5 @@ function driversByRevenue(drivers){
   })
 
   console.log(drivers)
+  return new_array
 }
