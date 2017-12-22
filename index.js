@@ -4,5 +4,4 @@ function logDriverNames(drivers) {
   for (const el of drivers) {
     console.log(el)
   }
-  return true
 }
