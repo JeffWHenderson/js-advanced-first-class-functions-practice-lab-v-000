@@ -18,6 +18,6 @@ function driversByRevenue(drivers){
   new_array = []
 
   for (const el of drivers){
-    console.log(el.revenue.sort())
+    console.log(el.revenue)
   }
 }
