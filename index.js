@@ -49,5 +49,5 @@ function averageRevenue(drivers) {
   for (const el of drivers) {
     totalRev += el.revenue
   }
-  return totalRev
+  return totalRev / drivers.length
 }
