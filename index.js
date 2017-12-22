@@ -13,3 +13,9 @@ function logDriversByHometown(drivers, town) {
     }
   }
 }
+
+function driversByRevenue(drivers){
+  new_array = []
+
+  return drivers
+}
