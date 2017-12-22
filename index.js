@@ -5,7 +5,7 @@
 //     console.log(el.name)
 //   }
 // }
-// 
+//
 // function logDriversByHometown(drivers, town) {
 //   for (const el of drivers) {
 //     if(el.hometown === town) {
@@ -13,14 +13,14 @@
 //     }
 //   }
 // }
-// 
+//
 // function driversByRevenue(drivers){
 //   let new_array = [...drivers]
-// 
+//
 //   new_array.sort(function (a, b){
 //      return a.revenue - b.revenue
 //   })
-// 
+//
 //   return new_array
 // }
 
@@ -31,5 +31,5 @@ function driversByName(drivers) {
      return a.name - b.name
   })
 
-  return new_array
+  console.log(new_array)
 }
