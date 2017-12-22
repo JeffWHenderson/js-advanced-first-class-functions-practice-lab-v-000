@@ -27,9 +27,7 @@
 function driversByName(drivers) {
   let new_array = [...drivers]
 
-  new_array.sort(function (a, b){
-     return a.name - b.name
-  })
+  new_array.sort()
 
   console.log(new_array[0].name - new_array[1].name)//new_array)
 }
