@@ -19,6 +19,6 @@ function driversByRevenue(drivers){
   let new_array = drivers.sort(function (a, b){
      return a.revenue - b.revenue
   })
-  return 
+
   console.log(drivers)
 }
