@@ -29,5 +29,5 @@ function driversByName(drivers) {
 
   new_array.sort()
 
-  console.log(new_array[0].name - new_array[1].name)//new_array)
+  console.log(new_array)
 }
